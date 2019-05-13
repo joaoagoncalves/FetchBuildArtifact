@@ -56,7 +56,7 @@ async function run() {
             qs: {
                 definitions: definitionId,
                 statusFilter: 'completed',
-                resultFilter: 'succeeded',
+                resultFilter: 'succeeded,partiallysucceeded',
                 $top: 1
             }
         });
